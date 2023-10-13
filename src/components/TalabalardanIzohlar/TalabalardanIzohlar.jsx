@@ -6,16 +6,16 @@ function TalabalardanIzohlar() {
             <h1 className="name">Talabalardan <span className="name__span">izohlar</span></h1>
             <div className="box__card">
                 <div className="card one">
-                    <h3 className="card__name">Nodir Jumaev Boston Universiteti talabasi</h3>
+                    <h4 className="card__name">Nodir Jumaev Boston Universiteti talabasi</h4>
                 </div>
                 <div className="card two">
-                    <h3 className="card__name">Jamshid Qo’chqorov Myunxen texnika niversiteti talabasi</h3>
+                    <h4 className="card__name">Jamshid Qo’chqorov Myunxen texnika niversiteti talabasi</h4>
                 </div>
                 <div className="card three">
-                    <h3 className="card__name">Nodir Jumaev Boston Universiteti talabasi</h3>
+                    <h4 className="card__name">Nodir Jumaev Boston Universiteti talabasi</h4>
                 </div>
                 <div className="card four">
-                    <h3 className="card__name">Nodir Jumaev Boston Universiteti talabasi</h3>
+                    <h4 className="card__name">Nodir Jumaev Boston Universiteti talabasi</h4>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ function Maqolalar() {
     return (
         <div className="maqolalar">
             <div className="maqolalar__header">
-                <h1>Maqolalar</h1>
+                <h1 className='name'>Maqolalar</h1>
                 <button className="btn">Barchasi</button>
             </div>
             <div className="box__card">
