@@ -1,0 +1,44 @@
+.footer {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F8F6;
+    border-top: 3px solid #C6C5C5;
+
+    .container {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 110px;
+        height: 79px;
+    }
+
+    .list{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .box__icons {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .anticon {
+        font-size: 30px;
+    }
+
+    .number {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}

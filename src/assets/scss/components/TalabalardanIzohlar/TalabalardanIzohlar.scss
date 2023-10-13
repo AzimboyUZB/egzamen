@@ -1,0 +1,54 @@
+.talabalardan__izohlar {
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .name {
+        font-size: 39px;
+        font-weight: 600;
+        color: #FF8541;
+
+        &__span {
+            color: black;
+        }
+    }
+
+    .box__card {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        overflow-y: hidden;
+        gap: 10px;
+    }
+
+    .card {
+        min-width: 280px;
+        height: 400px;
+        display: flex;
+        align-items: end;
+        border-radius: 10px;
+        padding: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        box-shadow: 0px -91px 85px -31px rgba(0, 0, 0, 0.747) inset;
+    }
+
+    .one {
+        background: url(https://i.ibb.co/FnGn7Xr/Rectangle-88.png);
+    }
+
+    .two {
+        background: url(https://i.ibb.co/Srk3t1m/Rectangle-88.png);
+    }
+
+    .three {
+        background: url(https://i.ibb.co/6RDfCnq/Rectangle-88-1.png);
+    }
+
+    .four {
+        background: url(https://i.ibb.co/c1PNhnY/Rectangle-88-2.png);
+    }
+}

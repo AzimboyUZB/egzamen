@@ -1,0 +1,101 @@
+.header {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    @media screen and (max-width: 930px) {
+        height: 70px;
+    }
+
+    .logo {
+        width: 120px;
+        height: 90%;
+
+        @media screen and (max-width: 930px) {
+            width: 100px;
+            height: 100%;
+        }
+    }
+
+    .nav {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        @media screen and (max-width: 930px) {
+            width: 60%;
+            gap: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    .list {
+        font-size: 16px;
+        font-weight: 600;
+        color: gray;
+
+        @media screen and (max-width: 930px) {
+            font-size: 13px;
+            font-weight: 600;
+        }
+    }
+
+    .box__btns {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+
+        @media screen and (max-width: 930px) {
+            width: 30%;
+        }
+
+        @media screen and (max-width: 768px) {
+            width: auto;
+        }
+    }
+
+    .btn {
+        width: 130px;
+        min-height: 40px;
+        background-color: #FF8541;
+        color: #fff;
+        border-radius: 8px;
+        border: none;
+
+        @media screen and (max-width: 930px) {
+            width: 100px;
+            min-height: 35px;
+            font-size: 13px;
+        }
+    }
+
+    .ant-select{
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    .box__menu__icon {
+        display: none;
+        
+        @media screen and (max-width: 768px){
+            display: block;
+            width: 35px;
+            height: 35px;
+            background-color: #FF8541;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+}
