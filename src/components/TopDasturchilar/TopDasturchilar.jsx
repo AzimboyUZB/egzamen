@@ -1,6 +1,6 @@
 import React from 'react'
 import { EnvironmentOutlined } from '@ant-design/icons';
-import topDasturlar from '@/data/topdasturlar';
+import topDasturlar from '@/data/topDasturlar';
 
 function TopDasturchilar() {
     return (
