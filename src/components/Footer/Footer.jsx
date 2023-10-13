@@ -43,7 +43,7 @@ function Footer() {
                     </Link>
                 </div>
                 <div className="list">
-                    <img src="https://i.ibb.co/t4wvLw8/Group-72.png" />
+                    <img src="https://i.ibb.co/ZH2Kcpc/Group-72-1.png" />
                 </div>
             </div>
         </div>
