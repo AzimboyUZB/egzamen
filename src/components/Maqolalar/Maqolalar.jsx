@@ -11,7 +11,7 @@ function Maqolalar() {
             <div className="box__card">
                 {maqolalar.map((item) => (
                     <div className="card" key={item.id}>
-                        <img src={item.img} width="230px" height="100%" />
+                        <img className="card__photo" src={item.img} />
                         <div className="card__title">
                             <h3 className="card__name">{item.name}</h3>
                             <p className="card__text">{item.title}</p>

@@ -6,7 +6,7 @@ import React, { useContext } from 'react'
 function Menu() {
     const { setMenu, menu } = useContext(MenuContext)
     return (
-        <div className={menu ? "menu" : " menu none"}>
+        <div className={menu ? "menu open" : "menu"}>
             <div className="container">
                 <button onClick={() => setMenu(false)} className="box__menu__icon">X</button>
                 <Link onClick={() => setMenu(false)} href="">
